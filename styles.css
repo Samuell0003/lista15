@@ -1,6 +1,7 @@
-main {
+body {
   background-image: url('https://stackblitz.com/files/web-platform-pwptn3/github/Samuell0003/lista15/master/fundo.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-position: center;
 }
 * {
   margin: 0px;
@@ -87,4 +88,7 @@ header nav ul li a {
   color: white;
   padding: 20px;
   text-decoration: none;
+}
+section {
+  background-color: white;
 }
