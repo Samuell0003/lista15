@@ -12,7 +12,7 @@ body {
   margin: auto;
 }
 [class^='col'] {
-  border: 1px solid black;
+  
   float: left;
 }
 .col-1 {
@@ -92,3 +92,4 @@ header nav ul li a {
 section {
   background-color: white;
 }
+
