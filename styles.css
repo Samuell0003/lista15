@@ -1,3 +1,90 @@
-body {
-  background: orange;
+main {
+  background-image: url('https://stackblitz.com/files/web-platform-pwptn3/github/Samuell0003/lista15/master/fundo.png');
+  background-repeat: no-repeat;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+[class^='col'] {
+  border: 1px solid black;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+header {
+  color: white;
+}
+.linha::after {
+  display: block;
+  content: '';
+  clear: both;
+  margin-bottom: 20px;
+}
+[class='col-6 cabecario'] img {
+  width: 50px;
+}
+
+.cor {
+  background-color: black;
+}
+.cor2 {
+  background-color: rgb(0, 102, 127);
+}
+header .linha p {
+  color: yellow;
+}
+header .linha p {
+  color: yellow;
+}
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
 }
